@@ -31,7 +31,7 @@ def push_info(infos,msg):
 #参数
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", dest="token", help="pushplus的token值")
+    parser.add_argument("-t", dest="token", help="p58979041e46449b4b74c7d4b4878a109")
     args = parser.parse_args()
 
     return {
